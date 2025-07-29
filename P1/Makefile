@@ -12,11 +12,9 @@ JAVA := java
 
 .PHONY: all run clean
 
-all: $(CLASSES)
+all: 
+	$(JAVAC) -d $(BIN_DIR) $(SOURCES)
 
-$(BIN_DIR)/%.class: $(SRC_DIR)/%.java
-	@mkdir -p $(dir $@)
-	$(JAVAC) -d $(BIN_DIR) $<
 
 run: all
 	$(JAVA) -cp $(BIN_DIR) $(MAIN_CLASS)
