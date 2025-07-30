@@ -10,6 +10,14 @@ public class FlockOfSheep {
 
     public int countSheep(int threadId) {
         //TODO: Implement function
-	return 0;
+	lock.lock(threadId);
+	int temp = sheepNum;
+	try{
+		sheepNum++;
+	}
+	finally {
+	lock.unlock(threadId);
+	}
+	return temp;
     }
 }

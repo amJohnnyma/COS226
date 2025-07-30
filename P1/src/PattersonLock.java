@@ -33,15 +33,51 @@ public class PattersonLock {
     }
     private boolean lockRec(TreeNode node, int threadId) {
         //TODO: ImplementFunction
-	return true;
+	
+	if(node==null || (node.left == null && node.right == null))
+	{
+		return false;
+	}
+
+	if(containsThread(node.left, threadId))
+	{
+		lockRec(node.left, threadId);
+		node.lock.lock(0);
+		return true;
+	}else if (containsThread(node.right, threadId))
+	{
+		lockRec(node.right, threadId);
+		node.lock.lock(1);
+		return true;
+	}
+
+	return false;
     }
+
 
     public void unlock(int threadId) {
         unlockRec(root, threadId);
     }
     private boolean unlockRec(TreeNode node, int threadId) {
         //TODO: ImplementFunction
-	return true;
+	if(node==null || (node.left == null && node.right == null))
+	{
+		return false;
+	}
+
+	if(containsThread(node.left, threadId))
+	{
+		unlockRec(node.left, threadId);
+		node.lock.unlock(0);
+		return true;
+	}else if (containsThread(node.right, threadId))
+	{
+		unlockRec(node.right, threadId);
+		node.lock.unlock(1);
+		return true;
+	}
+
+	return false;
     }
 
     private boolean containsThread(TreeNode node, int threadId) {
@@ -50,5 +86,14 @@ public class PattersonLock {
             return node.nodeId == threadId;
         }
         return containsThread(node.left, threadId) || containsThread(node.right, threadId);
+    }
+    private TreeNode getParent(TreeNode node, TreeNode child)
+    {
+	    if(node == null || node.left == null && node.right == null) {return null;}
+	    if (node.left == child || node.right == child) {return node;}
+
+	    TreeNode left = getParent(node.left, child);
+	    if(left != null) return left;
+	    return getParent(node.right,child);
     }
 }

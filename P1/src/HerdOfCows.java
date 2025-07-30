@@ -13,7 +13,15 @@ public class HerdOfCows {
 
 	public int countCows(int threadId) {
         //TODO: Implement function
-	return 0;
+	lock.lock(threadId);
+	try{
+		int temp = cowNum;
+		cowNum++;
+		return temp;
+	}
+	finally {
+		lock.unlock(threadId);
+	}
     }
 }
  
