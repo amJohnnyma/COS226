@@ -20,7 +20,7 @@ public class CustomThread extends Thread {
     @Override
     public void run() {
         //TODO: Count all the animals!       
-	System.out.println("Custom thread is running: " + this.threadId);
+	//System.out.println("Custom thread is running: " + this.threadId);
 	if(baa != null)
 	{
 		//System.out.println("Counting sheep");
@@ -32,7 +32,7 @@ public class CustomThread extends Thread {
 		releaseTheCows();
 	}
 	else{
-		System.out.println("Not counting");
+	//	System.out.println("Not counting");
 	}
 	
     }
@@ -42,7 +42,7 @@ public class CustomThread extends Thread {
 	while(baa.getSheepAmount() < 10)
 	{
 	baa.countSheep(threadId);
-	System.out.println("Thread-" + threadId + " (ID " + threadId + ") has incremented to " + baa.getSheepAmount());
+//	System.out.println("Thread-" + threadId + " (ID " + threadId + ") has incremented to " + baa.getSheepAmount());
 	}
     }
 
@@ -51,7 +51,7 @@ public class CustomThread extends Thread {
 	while(moo.getCowAmount() < 20)
 	{
 	moo.countCows(threadId);
-	System.out.println("Thread-" + threadId + " (ID " + threadId + ") has incremented to " + moo.getCowAmount());
+	//System.out.println("Thread-" + threadId + " (ID " + threadId + ") has incremented to " + moo.getCowAmount());
 	}
     }
 
