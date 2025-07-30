@@ -4,6 +4,10 @@ public class Task2Test {
         // TODO: Test your program
 
 	int threadCount = 4;
+	if(args[0] != null)
+	{
+		threadCount = Integer.parseInt(args[0]);
+	}
 
 	HerdOfCows cows = new HerdOfCows(threadCount);
 	CustomThread[] threads = new CustomThread[threadCount];

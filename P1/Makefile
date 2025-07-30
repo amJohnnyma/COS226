@@ -7,6 +7,8 @@ CLASSES := $(SOURCES:$(SRC_DIR)/%.java=$(BIN_DIR)/%.class)
 
 MAIN_CLASS := Task2Test
 
+ARGS :=
+
 JAVAC := javac
 JAVA := java
 
@@ -17,7 +19,7 @@ all:
 
 
 run: all
-	$(JAVA) -cp $(BIN_DIR) $(MAIN_CLASS)
+	$(JAVA) -cp $(BIN_DIR) $(MAIN_CLASS) $(ARGS)
 
 clean:
 	rm -rf $(BIN_DIR)
