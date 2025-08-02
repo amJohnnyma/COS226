@@ -5,7 +5,7 @@ SOURCES := $(shell find $(SRC_DIR) -name "*.java")
 
 CLASSES := $(SOURCES:$(SRC_DIR)/%.java=$(BIN_DIR)/%.class)
 
-MAIN_CLASS := Task2Test
+MAIN_CLASS := Main
 
 ARGS :=
 

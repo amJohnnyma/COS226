@@ -4,7 +4,7 @@ public class CustomThread extends Thread {
     private final FlockOfSheep baa;
     private final HerdOfCows moo;
     private final int threadId;
-    private final int max_count = 2;
+    private final int max_count = 100;
 
 	public CustomThread(FlockOfSheep baa, int threadId) {
         this.baa = baa;
@@ -39,16 +39,15 @@ public class CustomThread extends Thread {
 
     public void releaseTheSheep() {
         //TODO: Count all the sheep! 
-	while(baa.getSheepAmount() < 10)
+	for(int i = 0; i < max_count; i++)
 	{
 	baa.countSheep(threadId);
-//	System.out.println("Thread-" + threadId + " (ID " + threadId + ") has incremented to " + baa.getSheepAmount());
 	}
     }
 
 	public void releaseTheCows() {
         //TODO: Count all the cows!    
-	while(moo.getCowAmount() < 20)
+	for(int i = 0; i < max_count; i++)
 	{
 	moo.countCows(threadId);
 	//System.out.println("Thread-" + threadId + " (ID " + threadId + ") has incremented to " + moo.getCowAmount());
