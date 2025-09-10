@@ -1,0 +1,108 @@
+Results for TTAS Lock
+===============================
+
+Players=2, Contention=LOW, Time=5124 ms, CoinsTaken=2000, Min=983, Max=1017, Avg=1000.00
+   P0 -> 1017
+   P1 -> 983
+
+
+Players=2, Contention=MEDIUM, Time=2755 ms, CoinsTaken=2000, Min=979, Max=1021, Avg=1000.00
+   P0 -> 1021
+   P1 -> 979
+
+
+Players=2, Contention=HIGH, Time=1104 ms, CoinsTaken=2000, Min=992, Max=1008, Avg=1000.00
+   P0 -> 992
+   P1 -> 1008
+
+
+Players=8, Contention=LOW, Time=1290 ms, CoinsTaken=2000, Min=240, Max=269, Avg=250.00
+   P0 -> 249
+   P1 -> 240
+   P2 -> 255
+   P3 -> 245
+   P4 -> 249
+   P5 -> 251
+   P6 -> 242
+   P7 -> 269
+
+
+Players=8, Contention=MEDIUM, Time=650 ms, CoinsTaken=2000, Min=244, Max=266, Avg=250.00
+   P0 -> 245
+   P1 -> 250
+   P2 -> 257
+   P3 -> 245
+   P4 -> 266
+   P5 -> 244
+   P6 -> 248
+   P7 -> 245
+
+
+Players=8, Contention=HIGH, Time=273 ms, CoinsTaken=2000, Min=241, Max=256, Avg=250.00
+   P0 -> 250
+   P1 -> 244
+   P2 -> 251
+   P3 -> 256
+   P4 -> 255
+   P5 -> 252
+   P6 -> 241
+   P7 -> 251
+
+
+Players=16, Contention=LOW, Time=653 ms, CoinsTaken=2000, Min=110, Max=136, Avg=125.00
+   P0 -> 131
+   P1 -> 118
+   P2 -> 136
+   P3 -> 129
+   P4 -> 120
+   P5 -> 110
+   P6 -> 124
+   P7 -> 123
+   P8 -> 123
+   P9 -> 130
+   P10 -> 126
+   P11 -> 117
+   P12 -> 130
+   P13 -> 130
+   P14 -> 133
+   P15 -> 120
+
+
+Players=16, Contention=MEDIUM, Time=332 ms, CoinsTaken=2000, Min=114, Max=137, Avg=125.00
+   P0 -> 127
+   P1 -> 134
+   P2 -> 128
+   P3 -> 124
+   P4 -> 127
+   P5 -> 114
+   P6 -> 125
+   P7 -> 121
+   P8 -> 123
+   P9 -> 116
+   P10 -> 124
+   P11 -> 127
+   P12 -> 137
+   P13 -> 126
+   P14 -> 119
+   P15 -> 128
+
+
+Players=16, Contention=HIGH, Time=131 ms, CoinsTaken=2000, Min=109, Max=138, Avg=125.00
+   P0 -> 127
+   P1 -> 121
+   P2 -> 119
+   P3 -> 124
+   P4 -> 122
+   P5 -> 109
+   P6 -> 121
+   P7 -> 130
+   P8 -> 133
+   P9 -> 129
+   P10 -> 138
+   P11 -> 127
+   P12 -> 126
+   P13 -> 121
+   P14 -> 127
+   P15 -> 126
+
+

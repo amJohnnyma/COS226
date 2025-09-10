@@ -1,0 +1,108 @@
+Results for TTAS(10,10000,5,100000,2,1000000) Lock
+===============================
+
+Players=2, Contention=LOW, Time=5299 ms, CoinsTaken=2000, Min=995, Max=1005, Avg=1000.00
+   P0 -> 1005
+   P1 -> 995
+
+
+Players=2, Contention=MEDIUM, Time=2794 ms, CoinsTaken=2000, Min=986, Max=1014, Avg=1000.00
+   P0 -> 986
+   P1 -> 1014
+
+
+Players=2, Contention=HIGH, Time=1425 ms, CoinsTaken=2000, Min=994, Max=1006, Avg=1000.00
+   P0 -> 1006
+   P1 -> 994
+
+
+Players=8, Contention=LOW, Time=1268 ms, CoinsTaken=2000, Min=234, Max=258, Avg=250.00
+   P0 -> 234
+   P1 -> 249
+   P2 -> 256
+   P3 -> 246
+   P4 -> 248
+   P5 -> 254
+   P6 -> 258
+   P7 -> 255
+
+
+Players=8, Contention=MEDIUM, Time=657 ms, CoinsTaken=2000, Min=239, Max=259, Avg=250.00
+   P0 -> 239
+   P1 -> 242
+   P2 -> 258
+   P3 -> 258
+   P4 -> 254
+   P5 -> 243
+   P6 -> 259
+   P7 -> 247
+
+
+Players=8, Contention=HIGH, Time=484 ms, CoinsTaken=2000, Min=240, Max=273, Avg=250.00
+   P0 -> 240
+   P1 -> 257
+   P2 -> 244
+   P3 -> 273
+   P4 -> 244
+   P5 -> 247
+   P6 -> 255
+   P7 -> 240
+
+
+Players=16, Contention=LOW, Time=641 ms, CoinsTaken=2000, Min=117, Max=134, Avg=125.00
+   P0 -> 117
+   P1 -> 121
+   P2 -> 124
+   P3 -> 134
+   P4 -> 117
+   P5 -> 124
+   P6 -> 132
+   P7 -> 121
+   P8 -> 126
+   P9 -> 123
+   P10 -> 130
+   P11 -> 120
+   P12 -> 123
+   P13 -> 134
+   P14 -> 124
+   P15 -> 130
+
+
+Players=16, Contention=MEDIUM, Time=342 ms, CoinsTaken=2000, Min=116, Max=136, Avg=125.00
+   P0 -> 134
+   P1 -> 136
+   P2 -> 126
+   P3 -> 116
+   P4 -> 124
+   P5 -> 121
+   P6 -> 123
+   P7 -> 128
+   P8 -> 120
+   P9 -> 116
+   P10 -> 135
+   P11 -> 123
+   P12 -> 125
+   P13 -> 118
+   P14 -> 125
+   P15 -> 130
+
+
+Players=16, Contention=HIGH, Time=1133 ms, CoinsTaken=2000, Min=77, Max=150, Avg=125.00
+   P0 -> 111
+   P1 -> 77
+   P2 -> 136
+   P3 -> 104
+   P4 -> 96
+   P5 -> 117
+   P6 -> 139
+   P7 -> 142
+   P8 -> 135
+   P9 -> 104
+   P10 -> 150
+   P11 -> 132
+   P12 -> 140
+   P13 -> 147
+   P14 -> 146
+   P15 -> 124
+
+

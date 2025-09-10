@@ -14,9 +14,9 @@ public class ButterCroissant {
 
     public int bake(int threadId) {
         //TODO: Implement function
-	//System.out.println("Thread " + threadId + " wants to bake");
+//	System.out.println("Thread " + threadId + " wants to bake");
 	lock.lock(threadId);
-	//System.out.println("Thread " + threadId + " is baking");
+//	System.out.println("Thread " + threadId + " is baking");
 	int temp = count;
 	try
 	{
@@ -24,7 +24,7 @@ public class ButterCroissant {
 	}
 	finally
 	{
-	//	System.out.println("Thread " + threadId + " finished. " + getTotal());
+//		System.out.println("Thread " + threadId + " finished. " + getTotal());
 		lock.unlock(threadId);
 	}
 	return temp;

@@ -1,0 +1,108 @@
+Results for CLH(10,1000,5,100000,2,1000000) Lock
+===============================
+
+Players=2, Contention=LOW, Time=5176 ms, CoinsTaken=2000, Min=977, Max=1023, Avg=1000.00
+   P0 -> 977
+   P1 -> 1023
+
+
+Players=2, Contention=MEDIUM, Time=2778 ms, CoinsTaken=2000, Min=992, Max=1008, Avg=1000.00
+   P0 -> 992
+   P1 -> 1008
+
+
+Players=2, Contention=HIGH, Time=1433 ms, CoinsTaken=2000, Min=998, Max=1002, Avg=1000.00
+   P0 -> 998
+   P1 -> 1002
+
+
+Players=8, Contention=LOW, Time=1345 ms, CoinsTaken=2000, Min=236, Max=260, Avg=250.00
+   P0 -> 248
+   P1 -> 245
+   P2 -> 258
+   P3 -> 236
+   P4 -> 255
+   P5 -> 260
+   P6 -> 255
+   P7 -> 243
+
+
+Players=8, Contention=MEDIUM, Time=694 ms, CoinsTaken=2000, Min=233, Max=259, Avg=250.00
+   P0 -> 254
+   P1 -> 259
+   P2 -> 257
+   P3 -> 250
+   P4 -> 252
+   P5 -> 249
+   P6 -> 233
+   P7 -> 246
+
+
+Players=8, Contention=HIGH, Time=339 ms, CoinsTaken=2000, Min=233, Max=263, Avg=250.00
+   P0 -> 258
+   P1 -> 257
+   P2 -> 263
+   P3 -> 255
+   P4 -> 250
+   P5 -> 234
+   P6 -> 250
+   P7 -> 233
+
+
+Players=16, Contention=LOW, Time=656 ms, CoinsTaken=2000, Min=113, Max=132, Avg=125.00
+   P0 -> 130
+   P1 -> 127
+   P2 -> 118
+   P3 -> 132
+   P4 -> 129
+   P5 -> 128
+   P6 -> 126
+   P7 -> 127
+   P8 -> 128
+   P9 -> 125
+   P10 -> 113
+   P11 -> 123
+   P12 -> 115
+   P13 -> 126
+   P14 -> 132
+   P15 -> 121
+
+
+Players=16, Contention=MEDIUM, Time=341 ms, CoinsTaken=2000, Min=115, Max=133, Avg=125.00
+   P0 -> 130
+   P1 -> 126
+   P2 -> 122
+   P3 -> 126
+   P4 -> 120
+   P5 -> 128
+   P6 -> 133
+   P7 -> 126
+   P8 -> 126
+   P9 -> 115
+   P10 -> 115
+   P11 -> 126
+   P12 -> 124
+   P13 -> 122
+   P14 -> 131
+   P15 -> 130
+
+
+Players=16, Contention=HIGH, Time=243 ms, CoinsTaken=2000, Min=113, Max=135, Avg=125.00
+   P0 -> 131
+   P1 -> 132
+   P2 -> 124
+   P3 -> 127
+   P4 -> 128
+   P5 -> 118
+   P6 -> 133
+   P7 -> 118
+   P8 -> 119
+   P9 -> 125
+   P10 -> 113
+   P11 -> 132
+   P12 -> 120
+   P13 -> 115
+   P14 -> 135
+   P15 -> 130
+
+
