@@ -1,7 +1,8 @@
 # COS226
 226 practicals
-This is where the good stuff goes
 
+# Build Instructions
+First cd into specified folder.
 ## P1
 Makefile instructions
 ```make```
@@ -11,3 +12,15 @@ Makefile instructions
 - For Task 2
 ```make run MAIN_CLASS=Task2Test ARGS="numThreads"```
 With numThreads being an integer
+
+## P2
+
+## P3
+
+## P4
+
+## P5
+
+## A1
+```make```
+```make run```
