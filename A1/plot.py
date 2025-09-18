@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Load data
 df = pd.read_csv("const_results.csv")
 
-# --- Plot 1: Time vs Players (separate per contention level) ---
+#Plot 1: Time vs Players (separate per contention level)
 for contention in df["Contention"].unique():
     subset = df[df["Contention"] == contention]
     plt.figure()
@@ -20,7 +20,7 @@ for contention in df["Contention"].unique():
     plt.savefig(f"const_plot_time_{contention}.png")
     plt.close()
 
-# --- Plot 2: Fairness spread (Max - Min) vs Players ---
+# Plot 2: Fairness spread (Max - Min) vs Players
 df["Spread"] = df["Max"] - df["Min"]
 
 for contention in df["Contention"].unique():

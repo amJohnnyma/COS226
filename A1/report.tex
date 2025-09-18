@@ -20,6 +20,9 @@
 \section{Introduction}
 In this report we evaluate the performance and fairness of TTAS and CLH locks under different contention levels (LOW, MEDIUM, HIGH) and player counts (2, 8, 16).
 
+\section{Setup}
+Contention was simulated with `think time`, and `work iterations` which would simulate time spent before requesting critical section again, and time spent inside the critical section. For TTAS the min and max delay is 1000 and 1 000 000 micro seconds respectively.
+
 \clearpage
 \section{Results}
 

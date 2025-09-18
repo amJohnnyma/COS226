@@ -1,108 +1,108 @@
 Results for TTAS(5,1000,5,100000,5,1000000) Lock
 ===============================
 
-Players=2, Contention=LOW, Time=2677 ms, CoinsTaken=2000, Min=999, Max=1001, Avg=1000.00
-   P0 -> 1001
-   P1 -> 999
+Players=2, Contention=LOW, Time=5002 ms, CoinsTaken=2000, Min=771, Max=1229, Avg=1000.00
+   P0 -> 771
+   P1 -> 1229
 
 
-Players=2, Contention=MEDIUM, Time=2612 ms, CoinsTaken=2000, Min=990, Max=1010, Avg=1000.00
-   P0 -> 990
-   P1 -> 1010
+Players=2, Contention=MEDIUM, Time=4740 ms, CoinsTaken=2000, Min=557, Max=1443, Avg=1000.00
+   P0 -> 1443
+   P1 -> 557
 
 
-Players=2, Contention=HIGH, Time=2995 ms, CoinsTaken=2000, Min=996, Max=1004, Avg=1000.00
-   P0 -> 1004
-   P1 -> 996
+Players=2, Contention=HIGH, Time=5219 ms, CoinsTaken=2000, Min=963, Max=1037, Avg=1000.00
+   P0 -> 1037
+   P1 -> 963
 
 
-Players=8, Contention=LOW, Time=696 ms, CoinsTaken=2000, Min=239, Max=261, Avg=250.00
-   P0 -> 255
-   P1 -> 256
-   P2 -> 245
-   P3 -> 261
-   P4 -> 239
-   P5 -> 243
-   P6 -> 254
-   P7 -> 247
+Players=8, Contention=LOW, Time=2420 ms, CoinsTaken=2000, Min=116, Max=510, Avg=250.00
+   P0 -> 180
+   P1 -> 257
+   P2 -> 510
+   P3 -> 313
+   P4 -> 127
+   P5 -> 133
+   P6 -> 116
+   P7 -> 364
 
 
-Players=8, Contention=MEDIUM, Time=702 ms, CoinsTaken=2000, Min=232, Max=264, Avg=250.00
-   P0 -> 232
-   P1 -> 247
-   P2 -> 258
-   P3 -> 251
-   P4 -> 238
-   P5 -> 256
-   P6 -> 264
-   P7 -> 254
+Players=8, Contention=MEDIUM, Time=3062 ms, CoinsTaken=2000, Min=58, Max=537, Avg=250.00
+   P0 -> 369
+   P1 -> 109
+   P2 -> 58
+   P3 -> 161
+   P4 -> 121
+   P5 -> 290
+   P6 -> 355
+   P7 -> 537
 
 
-Players=8, Contention=HIGH, Time=772 ms, CoinsTaken=2000, Min=237, Max=266, Avg=250.00
-   P0 -> 254
-   P1 -> 266
-   P2 -> 260
-   P3 -> 241
-   P4 -> 250
-   P5 -> 237
-   P6 -> 244
-   P7 -> 248
+Players=8, Contention=HIGH, Time=3122 ms, CoinsTaken=2000, Min=101, Max=363, Avg=250.00
+   P0 -> 327
+   P1 -> 101
+   P2 -> 252
+   P3 -> 215
+   P4 -> 208
+   P5 -> 242
+   P6 -> 363
+   P7 -> 292
 
 
-Players=16, Contention=LOW, Time=345 ms, CoinsTaken=2000, Min=110, Max=139, Avg=125.00
-   P0 -> 130
-   P1 -> 137
-   P2 -> 126
-   P3 -> 129
-   P4 -> 139
-   P5 -> 117
-   P6 -> 118
-   P7 -> 110
-   P8 -> 117
-   P9 -> 126
-   P10 -> 118
-   P11 -> 127
-   P12 -> 124
-   P13 -> 124
-   P14 -> 132
-   P15 -> 126
+Players=16, Contention=LOW, Time=2322 ms, CoinsTaken=2000, Min=19, Max=278, Avg=125.00
+   P0 -> 53
+   P1 -> 46
+   P2 -> 81
+   P3 -> 21
+   P4 -> 185
+   P5 -> 272
+   P6 -> 172
+   P7 -> 66
+   P8 -> 278
+   P9 -> 103
+   P10 -> 71
+   P11 -> 156
+   P12 -> 52
+   P13 -> 19
+   P14 -> 211
+   P15 -> 214
 
 
-Players=16, Contention=MEDIUM, Time=353 ms, CoinsTaken=2000, Min=113, Max=134, Avg=125.00
-   P0 -> 127
-   P1 -> 125
-   P2 -> 129
-   P3 -> 121
-   P4 -> 133
-   P5 -> 132
-   P6 -> 118
-   P7 -> 131
-   P8 -> 120
-   P9 -> 134
-   P10 -> 115
-   P11 -> 124
-   P12 -> 113
-   P13 -> 131
-   P14 -> 123
-   P15 -> 124
+Players=16, Contention=MEDIUM, Time=1407 ms, CoinsTaken=2000, Min=38, Max=312, Avg=125.00
+   P0 -> 68
+   P1 -> 259
+   P2 -> 57
+   P3 -> 236
+   P4 -> 68
+   P5 -> 198
+   P6 -> 171
+   P7 -> 101
+   P8 -> 49
+   P9 -> 60
+   P10 -> 122
+   P11 -> 98
+   P12 -> 47
+   P13 -> 38
+   P14 -> 312
+   P15 -> 116
 
 
-Players=16, Contention=HIGH, Time=693 ms, CoinsTaken=2000, Min=100, Max=141, Avg=125.00
-   P0 -> 132
-   P1 -> 129
-   P2 -> 127
-   P3 -> 137
-   P4 -> 116
-   P5 -> 129
-   P6 -> 100
-   P7 -> 129
-   P8 -> 141
-   P9 -> 138
-   P10 -> 114
-   P11 -> 127
-   P12 -> 123
-   P13 -> 117
-   P14 -> 106
-   P15 -> 135
+Players=16, Contention=HIGH, Time=2028 ms, CoinsTaken=2000, Min=11, Max=311, Avg=125.00
+   P0 -> 231
+   P1 -> 11
+   P2 -> 185
+   P3 -> 44
+   P4 -> 124
+   P5 -> 202
+   P6 -> 87
+   P7 -> 311
+   P8 -> 28
+   P9 -> 179
+   P10 -> 48
+   P11 -> 44
+   P12 -> 290
+   P13 -> 115
+   P14 -> 57
+   P15 -> 44
 
 
