@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load data
-df = pd.read_csv("results.csv")
+df = pd.read_csv("const_results.csv")
 
 # --- Plot 1: Time vs Players (separate per contention level) ---
 for contention in df["Contention"].unique():
@@ -17,7 +17,7 @@ for contention in df["Contention"].unique():
     plt.ylabel("Time (ms)")
     plt.legend()
     plt.grid(True)
-    plt.savefig(f"plot_time_{contention}.png")
+    plt.savefig(f"const_plot_time_{contention}.png")
     plt.close()
 
 # --- Plot 2: Fairness spread (Max - Min) vs Players ---
@@ -34,5 +34,5 @@ for contention in df["Contention"].unique():
     plt.ylabel("Spread (Coins difference)")
     plt.legend()
     plt.grid(True)
-    plt.savefig(f"plot_fairness_{contention}.png")
+    plt.savefig(f"const_plot_fairness_{contention}.png")
     plt.close()

@@ -6,9 +6,9 @@ import java.util.*;
 public class Main {
 
     enum Contention {
-        LOW(10, 1_000),
+        LOW(5, 1_000),
         MEDIUM(5, 100_000),
-        HIGH(2, 1_000_000);
+        HIGH(5, 1_000_000);
 
         final int thinkMs;
         final int csWorkIters;
